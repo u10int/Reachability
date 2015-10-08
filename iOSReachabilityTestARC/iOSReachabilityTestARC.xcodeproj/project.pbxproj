@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B52D14A1BC5ECFE002C3DA5 /* TMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52D1491BC5ECFE002C3DA5 /* TMReachability.m */; settings = {ASSET_TAGS = (); }; };
 		EAEB207C147A7ED2009545B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB207B147A7ED2009545B6 /* UIKit.framework */; };
 		EAEB207E147A7ED2009545B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB207D147A7ED2009545B6 /* Foundation.framework */; };
 		EAEB2080147A7ED2009545B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB207F147A7ED2009545B6 /* CoreGraphics.framework */; };
@@ -15,11 +16,12 @@
 		EAEB208C147A7ED2009545B6 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB208B147A7ED2009545B6 /* TMAppDelegate.m */; };
 		EAEB208F147A7ED2009545B6 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB208E147A7ED2009545B6 /* TMViewController.m */; };
 		EAEB2092147A7ED2009545B6 /* TMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEB2090147A7ED2009545B6 /* TMViewController.xib */; };
-		EAEB209A147A7EE6009545B6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB2099147A7EE6009545B6 /* Reachability.m */; };
 		EAEB209C147A7F00009545B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB209B147A7F00009545B6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B52D1481BC5ECFE002C3DA5 /* TMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMReachability.h; path = ../../TMReachability.h; sourceTree = "<group>"; };
+		2B52D1491BC5ECFE002C3DA5 /* TMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMReachability.m; path = ../../TMReachability.m; sourceTree = "<group>"; };
 		EAEB2077147A7ED2009545B6 /* iOSReachabilityTestARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSReachabilityTestARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEB207B147A7ED2009545B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAEB207D147A7ED2009545B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,8 +35,6 @@
 		EAEB208D147A7ED2009545B6 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
 		EAEB208E147A7ED2009545B6 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
 		EAEB2091147A7ED2009545B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TMViewController.xib; sourceTree = "<group>"; };
-		EAEB2098147A7EE6009545B6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Reachability.h; sourceTree = "<group>"; };
-		EAEB2099147A7EE6009545B6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Reachability.m; sourceTree = "<group>"; };
 		EAEB209B147A7F00009545B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,8 +84,8 @@
 		EAEB2081147A7ED2009545B6 /* iOSReachabilityTestARC */ = {
 			isa = PBXGroup;
 			children = (
-				EAEB2098147A7EE6009545B6 /* Reachability.h */,
-				EAEB2099147A7EE6009545B6 /* Reachability.m */,
+				2B52D1481BC5ECFE002C3DA5 /* TMReachability.h */,
+				2B52D1491BC5ECFE002C3DA5 /* TMReachability.m */,
 				EAEB208A147A7ED2009545B6 /* TMAppDelegate.h */,
 				EAEB208B147A7ED2009545B6 /* TMAppDelegate.m */,
 				EAEB208D147A7ED2009545B6 /* TMViewController.h */,
@@ -170,9 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAEB2088147A7ED2009545B6 /* main.m in Sources */,
+				2B52D14A1BC5ECFE002C3DA5 /* TMReachability.m in Sources */,
 				EAEB208C147A7ED2009545B6 /* TMAppDelegate.m in Sources */,
 				EAEB208F147A7ED2009545B6 /* TMViewController.m in Sources */,
-				EAEB209A147A7EE6009545B6 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

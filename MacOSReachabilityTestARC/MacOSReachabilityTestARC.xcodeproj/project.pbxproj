@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B52D14D1BC5ED38002C3DA5 /* TMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52D14C1BC5ED38002C3DA5 /* TMReachability.m */; settings = {ASSET_TAGS = (); }; };
 		EAEB204B147A7DFE009545B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB204A147A7DFE009545B6 /* Cocoa.framework */; };
 		EAEB2055147A7DFE009545B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAEB2053147A7DFE009545B6 /* InfoPlist.strings */; };
 		EAEB2057147A7DFE009545B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB2056147A7DFE009545B6 /* main.m */; };
 		EAEB205B147A7DFE009545B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EAEB2059147A7DFE009545B6 /* Credits.rtf */; };
 		EAEB205E147A7DFE009545B6 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB205D147A7DFE009545B6 /* TMAppDelegate.m */; };
 		EAEB2061147A7DFF009545B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAEB205F147A7DFF009545B6 /* MainMenu.xib */; };
-		EAEB2069147A7E16009545B6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB2068147A7E16009545B6 /* Reachability.m */; };
 		EAEB206B147A7E2D009545B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEB206A147A7E2D009545B6 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B52D14B1BC5ED38002C3DA5 /* TMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMReachability.h; path = ../../TMReachability.h; sourceTree = "<group>"; };
+		2B52D14C1BC5ED38002C3DA5 /* TMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMReachability.m; path = ../../TMReachability.m; sourceTree = "<group>"; };
 		EAEB2046147A7DFE009545B6 /* MacOSReachabilityTestARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSReachabilityTestARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEB204A147A7DFE009545B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EAEB204D147A7DFE009545B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -31,8 +33,6 @@
 		EAEB205C147A7DFE009545B6 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
 		EAEB205D147A7DFE009545B6 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
 		EAEB2060147A7DFF009545B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		EAEB2067147A7E16009545B6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../Reachability.h; sourceTree = "<group>"; };
-		EAEB2068147A7E16009545B6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../Reachability.m; sourceTree = "<group>"; };
 		EAEB206A147A7E2D009545B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,8 +89,8 @@
 		EAEB2050147A7DFE009545B6 /* MacOSReachabilityTestARC */ = {
 			isa = PBXGroup;
 			children = (
-				EAEB2067147A7E16009545B6 /* Reachability.h */,
-				EAEB2068147A7E16009545B6 /* Reachability.m */,
+				2B52D14B1BC5ED38002C3DA5 /* TMReachability.h */,
+				2B52D14C1BC5ED38002C3DA5 /* TMReachability.m */,
 				EAEB205C147A7DFE009545B6 /* TMAppDelegate.h */,
 				EAEB205D147A7DFE009545B6 /* TMAppDelegate.m */,
 				EAEB205F147A7DFF009545B6 /* MainMenu.xib */,
@@ -176,7 +176,7 @@
 			files = (
 				EAEB2057147A7DFE009545B6 /* main.m in Sources */,
 				EAEB205E147A7DFE009545B6 /* TMAppDelegate.m in Sources */,
-				EAEB2069147A7E16009545B6 /* Reachability.m in Sources */,
+				2B52D14D1BC5ED38002C3DA5 /* TMReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

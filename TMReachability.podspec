@@ -12,7 +12,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 EOF
 
 Pod::Spec.new do |s|
-  s.name         = 'Reachability'
+  s.name         = 'TMReachability'
   s.version      = '3.2'
   s.summary      = 'ARC and GCD Compatible Reachability Class for iOS and OS X. Drop in replacement for Apple Reachability.'
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'BSD', :text => license }
 
   s.source       = { :git => 'https://github.com/tonymillion/Reachability.git', :tag => "v#{s.version}" }
-  s.source_files = 'Reachability.{h,m}'
+  s.source_files = 'TMReachability.{h,m}'
   s.framework    = 'SystemConfiguration'
 
   s.requires_arc = true
